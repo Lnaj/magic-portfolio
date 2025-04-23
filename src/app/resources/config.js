@@ -17,7 +17,7 @@ const protectedRoutes = {
 const style = {
   theme: "dark", // dark | light
   neutral: "gray", // sand | gray | slate
-  brand: "emerald", // blue | indigo | violet | magenta | pink | red | orange | yellow | moss | green | emerald | aqua | cyan
+  brand: "blue", // blue | indigo | violet | magenta | pink | red | orange | yellow | moss | green | emerald | aqua | cyan
   accent: "orange", // blue | indigo | violet | magenta | pink | red | orange | yellow | moss | green | emerald | aqua | cyan
   solid: "contrast", // color | contrast
   solidStyle: "flat", // flat | plastic
@@ -56,14 +56,14 @@ const effects = {
     opacity: 100,
   },
   grid: {
-    display: false,
+    display: true,
     color: "neutral-alpha-weak",
     opacity: 100,
   },
 };
 
 const display = {
-  location: true,
+  location: false,
   time: true,
 };
 
